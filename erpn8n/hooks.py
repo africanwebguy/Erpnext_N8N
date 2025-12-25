@@ -8,3 +8,7 @@ app_license = "GPL-3.0 license"
 desk_pages = {
     "ai-chat": "erpn8n.page.ai_chat.ai_chat"
 }
+
+
+# 🔴 IMPORTANT FIX
+build_ignore_apps = ["erpn8n"]
