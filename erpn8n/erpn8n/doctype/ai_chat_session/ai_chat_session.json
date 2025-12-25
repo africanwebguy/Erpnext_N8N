@@ -1,0 +1,18 @@
+{
+    "doctype": "DocType",
+    "name": "AI Chat Session",
+    "module": "ERP n8n AI",
+    "custom": 0,
+    "fields": [
+      { "fieldname": "session_id", "label": "Session ID", "fieldtype": "Data", "reqd": 1 },
+      { "fieldname": "user", "label": "User", "fieldtype": "Link", "options": "User" },
+      { "fieldname": "started_at", "label": "Started At", "fieldtype": "Datetime" },
+      {
+        "fieldname": "status",
+        "label": "Status",
+        "fieldtype": "Select",
+        "options": "Active\nClosed"
+      }
+    ]
+  }
+  

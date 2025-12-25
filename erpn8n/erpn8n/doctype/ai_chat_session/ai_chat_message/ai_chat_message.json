@@ -1,0 +1,19 @@
+{
+    "doctype": "DocType",
+    "name": "AI Chat Message",
+    "module": "ERP n8n AI",
+    "custom": 0,
+    "fields": [
+      { "fieldname": "session", "label": "Session", "fieldtype": "Link", "options": "AI Chat Session" },
+      {
+        "fieldname": "sender",
+        "label": "Sender",
+        "fieldtype": "Select",
+        "options": "User\nAI"
+      },
+      { "fieldname": "message", "label": "Message", "fieldtype": "Long Text" },
+      { "fieldname": "raw_payload", "label": "Raw Payload", "fieldtype": "JSON" },
+      { "fieldname": "timestamp", "label": "Timestamp", "fieldtype": "Datetime" }
+    ]
+  }
+  

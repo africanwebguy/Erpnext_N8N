@@ -1,0 +1,14 @@
+{
+    "doctype": "DocType",
+    "name": "AI Assistant Settings",
+    "module": "ERP n8n AI",
+    "issingle": 1,
+    "custom": 0,
+    "fields": [
+      { "fieldname": "enabled", "label": "Enabled", "fieldtype": "Check" },
+      { "fieldname": "n8n_webhook_url", "label": "n8n Webhook URL", "fieldtype": "Data" },
+      { "fieldname": "shared_secret", "label": "Shared Secret", "fieldtype": "Password" },
+      { "fieldname": "request_timeout", "label": "Request Timeout", "fieldtype": "Int", "default": 30 }
+    ]
+  }
+  
