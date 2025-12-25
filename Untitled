@@ -1,0 +1,1 @@
+recursive-include erpn8n *.json *.js *.html *.css *.py

@@ -1,2 +1,3 @@
-# Erpnext_N8N
-A chat module for erpnext and n8n
+# ERPNext n8n AI Chat Assistant
+
+ChatGPT-style conversational interface for ERPNext using n8n workflows.
